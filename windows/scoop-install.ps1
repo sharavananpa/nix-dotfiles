@@ -25,10 +25,14 @@ scoop bucket add versions
 
 # Install additional useful tools
 Write-Host "Installing useful tools..."
+scoop install extras/windows-terminal
+scoop install extras/irfanview
 scoop install extras/vlc
-scoop install extras/mullvad-browser
+scoop install extras/librewolf
+scoop install extras/tor-browser
 scoop install extras/notepadplusplus
 scoop install main/tealdeer
+scoop install extras/vscode
 
 gsudo scoop install extras/vcredist-aio
 gsudo scoop install versions/windowsdesktop-runtime-6.0
@@ -36,7 +40,6 @@ gsudo scoop install extras/windowsdesktop-runtime
 
 # Install gimmicky/fun tools (optional)
 Write-Host "Installing gimmicky tools..."
-scoop install extras/mousejiggler
 scoop install extras/runcat
 
 Write-Host "Installation complete!"
