@@ -4,8 +4,8 @@
 net file >nul 2>nul
 @if errorlevel 1 (
     @echo This script requires administrator privileges to run properly.
-    @echo Press Ctrl+C and Y now to exit, or press Enter to continue without administrator privileges.
     @pause
+    exit /b
 )
 @echo.
 
