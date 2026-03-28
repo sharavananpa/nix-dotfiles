@@ -34,6 +34,7 @@
     bat
     ripgrep
     fastfetch
+    feh
     fd
     btop
     nerd-fonts.jetbrains-mono
@@ -193,4 +194,6 @@
     enable = true;
     enableGitIntegration = true;
   };
+
+  programs.yt-dlp.enable = true;
 }
