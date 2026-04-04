@@ -25,6 +25,7 @@
       "chromium"
       "keka"
       "qbittorrent"
+      "librewolf"
     ];
     taps = [
       "homebrew/homebrew-core"

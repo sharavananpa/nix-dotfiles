@@ -43,6 +43,7 @@
     nodejs_24
     librewolf
     vscode
+    aria2
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
